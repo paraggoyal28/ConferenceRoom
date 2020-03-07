@@ -1,0 +1,166 @@
+html{
+  height: 100%;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+#topheader{
+  height: auto;
+}
+
+#logo{
+  height: 100px;
+  float: left;
+}
+
+.navbar {
+  padding: .0rem 1rem !important;
+  background-color: black !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1400px !important ;
+  }
+}
+
+.clear{
+  clear: both;
+}
+
+.hide{
+  display: none !important;
+}
+
+#mainbg{
+  height:100%;
+  background:url('pic.jpeg');
+  background-size:cover;
+  background-position: 0px 0px;
+}
+
+
+#loginpage{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  min-height: 80%;
+  align-content: center;
+  background:url('loginbg.jpg');
+  background-size:cover;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#loginpage .card{
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+#loginpage .input-group-prepend span{
+  width: 50px;
+  background-color: #FFC312;
+  color: black;
+  border:0 !important;
+}
+
+#loginpage input:focus{
+  outline: 0 0 0 0  !important;
+  box-shadow: 0 0 0 0 !important;
+
+}
+
+#loginpage .remember{
+  color: white;
+}
+
+#loginpage .remember input
+{
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+#loginpage .login_btn{
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+}
+
+#loginpage .login_btn:hover{
+  color: black;
+  background-color: white;
+}
+
+#loginpage .links{
+  color: white;
+}
+
+#loginpage .links a{
+  margin-left: 4px;
+}
+
+#room1{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  min-height: 80%;
+  align-content: center;
+  background:url('loginbg.jpg');
+  background-size:cover;
+}
+
+#room2{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  min-height: 80%;
+  align-content: center;
+  background:url('loginbg.jpg');
+  background-size:cover;
+}
+
+.room .container2{
+  max-width: 1200px;
+  padding: 30px;
+  margin: auto;
+}
+
+.room .list-group-item {
+  padding: .25rem 1.25rem;
+
+}
+
+.room .list-group-item.active {
+  background-color: rgba(0,123,255,.5) !important;
+}
+
+
+.room h4{
+  color:white;
+  cursor: pointer;
+}
+
+.room hr {
+border-color: white;
+
+}
+
+.room li{
+  font-size: 18px;
+}
+
+#mybooking{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  min-height: 80%;
+  align-content: center;
+  background:url('loginbg.jpg');
+  background-size:cover;
+}

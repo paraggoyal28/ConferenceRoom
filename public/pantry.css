@@ -1,0 +1,51 @@
+html,body{
+    height:100%;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.topheader{
+    height: 100px;
+}
+
+#logo{
+    height: 100px;
+}
+
+.pantry{
+    padding-top:40px;
+    padding-bottom: 50px;
+    min-height: 90%;
+    background:url('coffee.jpg');
+    background-size:cover;
+
+}
+
+.list-group-item {
+    padding: .25rem 1.25rem;
+}
+
+.list-group-item.active{
+    background-color: rgba(0,123,255,.25) !important;
+}
+
+h4{
+    color:white;
+    cursor: pointer;
+}
+
+h6{
+    color:white;
+}
+
+hr {
+    border-color: white;
+
+}
+
+li{
+    font-size: 18px;
+}
+
+.hide{
+    display: none;
+}
